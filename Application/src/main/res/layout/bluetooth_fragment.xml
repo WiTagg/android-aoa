@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/bluetooth_bar"
+        layout="@layout/actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/action_bar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mac:"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/mac_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="06:05:04:"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/mac_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="10001"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="channel:"
+                android:textSize="15dp" />
+            <RadioGroup
+                android:id="@+id/radioGroupId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/buttonId39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="39"/>
+                <RadioButton
+                    android:id ="@+id/buttonId38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="38"/>
+                <RadioButton
+                    android:id ="@+id/buttonId37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="37"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/startdrawtext"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@color/common_text_red"
+                android:textColor="@color/white_normal"
+                android:text="Start"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <com.witagg.openaoa.antbluetooth.customerview.DrawableText
+                android:id="@+id/show_text"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:textColor="@color/common_text_red"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:text="Broadcasting CTE frames..."
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

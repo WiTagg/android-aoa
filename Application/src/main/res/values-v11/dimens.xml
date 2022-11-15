@@ -1,0 +1,74 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_bar">50dp</dimen>
+    <dimen name="bottom_button">40dp</dimen>
+    <dimen name="common_button_2">90dp</dimen>
+    <dimen name="item_header_icon_size">50.0dip</dimen>
+    <dimen name="item_header_icon_size_big">60.0dip</dimen>
+    <dimen name="item_recommend">72.0dip</dimen>
+    <dimen name="banner_height">120.0dip</dimen>
+    <dimen name="item_height">45dip</dimen>
+    <dimen name="middle_line_height">40dip</dimen>
+    <dimen name="small_line_height">30dip</dimen>
+
+    <dimen name="btn_height">45.0dip</dimen>
+    <dimen name="btn_height_s">30.0dip</dimen>
+    <dimen name="btn_width">70.dip</dimen>
+
+    <dimen name="margin_big">21.0dip</dimen>
+    <dimen name="margin_middle">15.0dip</dimen>
+    <dimen name="margin_side">12.0dip</dimen>
+    <dimen name="margin_small">6.0dip</dimen>
+    <dimen name="margin_vs">3.0dip</dimen>
+
+
+    <dimen name="common_app_icon_size">56.0dip</dimen>
+    <dimen name="download_default_item_height">80.0dip</dimen>
+    <dimen name="app_down_appname_text_size">17.0sp</dimen>
+    <dimen name="app_down_item_right_layout_width">78.0dip</dimen>
+    <dimen name="app_down_item_right_layout_height">62.0dip</dimen>
+    <dimen name="app_down_item_gray_text_size">13.0sp</dimen>
+    <dimen name="app_down_item_end_time_text_size">12.699982sp</dimen>
+    <dimen name="app_down_item_gray_percent_size">10.0sp</dimen>
+    <dimen name="app_down_item_icon_left_margin">14.0dip</dimen>
+    <dimen name="app_down_item_icon_right_margin">8.0dip</dimen>
+    <dimen name="app_down_item_icon_top_margin">18.0dip</dimen>
+    <dimen name="app_down_item_creating_text_top_margin">22.5dip</dimen>
+
+    <dimen name="download_button_width">63.0dip</dimen>
+    <dimen name="download_button_height">28.0dip</dimen>
+
+    <dimen name="border_small">3.0dip</dimen>
+    <dimen name="border">6.0dip</dimen>
+    <dimen name="border_big">15.0dip</dimen>
+    <dimen name="border_bbig">18.0dip</dimen>
+    <dimen name="border_common">9.0dip</dimen>
+
+    <dimen name="basic_text_size">15.0dip</dimen>
+    <dimen name="text_size_9">9.0sp</dimen>
+    <dimen name="text_size_10">10.0sp</dimen>
+    <dimen name="text_size_11">11.0sp</dimen>
+    <dimen name="text_size_12">12.0sp</dimen>
+    <dimen name="text_size_13">13.0sp</dimen>
+    <dimen name="text_size_14">14.0sp</dimen>
+    <dimen name="text_size_15">15.0sp</dimen>
+    <dimen name="text_size_16">16.0sp</dimen>
+    <dimen name="text_size_18">18.0sp</dimen>
+    <dimen name="text_size_20">20.0sp</dimen>
+    <dimen name="text_size_22">22.0sp</dimen>
+    <dimen name="text_size_23">23.0sp</dimen>
+    <dimen name="text_size_24">24.0sp</dimen>
+
+    <dimen name="setting_des_width">130dp</dimen>
+
+
+    <dimen name="gallery_height">260dp</dimen>
+    <dimen name="gallery_width">160dp</dimen>
+    <dimen name="floorlist_height">200dp</dimen>
+</resources>

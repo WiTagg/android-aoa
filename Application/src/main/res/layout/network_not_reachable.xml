@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/netWork_tip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/network_not_reachable"
+        android:textColor="@color/color_gray6"
+        android:textSize="15.0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="9.0dip"
+        android:text="@string/check_network"
+        android:textColor="@color/light_gray9"
+        android:textSize="13.0dp" />
+
+    <Button
+        android:id="@+id/try_again"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="72dip"
+        android:layout_marginLeft="54dip"
+        android:layout_marginRight="54dip"
+        android:layout_gravity="center"
+        android:text="@string/try_again" />
+
+</LinearLayout>

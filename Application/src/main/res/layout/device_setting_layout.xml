@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/action_bar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+        <TextView
+            android:id="@+id/kalman_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_height"
+            android:text="Kalman Strength:Max"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height">
+            <SeekBar
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/kalman_seekBar"
+                android:min="0"
+                android:max="6"
+                android:progress="6" />   <!--滑块默认位置-->
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tail_length"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_height"
+            android:text="Tail Length:5"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height">
+            <SeekBar
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/tail_lengh_seekBar"
+                android:min="1"
+                android:max="100"
+                android:progress="5" />   <!--滑块默认位置-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
