@@ -1,5 +1,5 @@
 # 忽略.idea文件夹
-.idea
+/.idea/libraries
 # 忽略.gradle文件夹
 .gradle
 # 忽略所有"build"文件夹

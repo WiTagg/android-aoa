@@ -3,7 +3,7 @@
 //
 //  Copyright  2022 WiTagg, Inc
 //
-//  SPDX-License-Identifier: AGPL-3.0-only
+//  SPDX-License-Identifier: MIT
 //
 package com.witagg.openaoa.antbluetooth.Fragment;
 
